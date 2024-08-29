@@ -74,7 +74,7 @@ const Hero = () => {
         Creativity 
       </motion.div>
       <div className="imageContainer">
-        <img src="/hero.png" alt="" />
+        <img src={import.meta.env.BASE_URL + "/hero.png"} alt="" />
       </div>
     </div>
   );
